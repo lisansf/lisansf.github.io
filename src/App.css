@@ -1,10 +1,38 @@
-nav {
+/** Navigation bar */
+header {
     width: 100%;
     height: 8vh;
-    background-color: royalblue;
+    background: rgb(0,0,148);
+    background: linear-gradient(162deg, rgba(0,0,148,1) 0%, rgba(44,171,196,1) 69%);
     display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-p {
-    margin: 0;
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav p {
+    margin: 0rem auto 0rem 1rem;
+    font-size: 2rem;
+}
+
+nav div a {
+    margin: 7px;
+    padding: 0.75rem;
+    transition: ease-in-out 0.5s;
+}
+
+nav div a:hover {
+    color: cyan;
+    background-color: green;
+}
+
+/** Main Section */
+main {
+    width: 100%;
 }

@@ -1,23 +1,24 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 import './App.css';
 
-import Home from "./components/Home"
-import Blog from "./components/Blog"
-import Store from "./components/Store"
+import Home from "./components/Home";
+import Blog from "./components/Blog";
 
 function App() {
   return (
+    <>
+    <Helmet title='VEO Veneht'/>
     <Router>
       <div className="App">
         <header>
           <nav>
-            <p>Lisan</p>
+            <p>VEO Veneht</p>
             <div>
               <Link to="/">Home</Link>
               <Link to="/Blog">Blog</Link>
-              <Link to="/Store">Store</Link>
             </div>
           </nav>
         </header>
@@ -25,18 +26,17 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />}/>
             <Route path="/Blog" element={<Blog />}/>
-            <Route path="/Store" element={<Store />}/>
           </Routes>
         </main>
         <footer>
           <div>
               <Link to="/">Home</Link>
               <Link to="/Blog">Blog</Link>
-              <Link to="/Store">Store</Link>
           </div>
         </footer>
       </div>
     </Router>
+    </>
   );
 }
 
