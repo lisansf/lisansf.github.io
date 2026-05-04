@@ -1,9 +1,10 @@
+import Link from "next/link";
 import { Metadata } from "next";
 import {
 	PortfolioNavigation,
 	PortfolioFooter,
 } from "@/components/PortfolioComponents";
-import Link from "next/link";
+import Skills from "@/components/SkillComponents";
 
 export const metadata: Metadata = {
 	title: "About | Lisan Shidqi Farizan",
@@ -17,7 +18,7 @@ export default function About() {
 				<div className="max-w-[1440px] w-full flex flex-col my-12 px-6 gap-4 text-white">
 					<div className="flex mx-36 gap-4">
 						<div className="flex items-center justify-center">
-							<img className="rounded-full" src="/img/lisan.png" />
+							<img className="rounded-full" src="/img/lisan.png" alt="me"/>
 						</div>
 						<div>
 							<h1>BIOGRAPHY</h1>
@@ -31,19 +32,7 @@ export default function About() {
 					</div>
 					<div>
 						<h1>SKILLS & TOOLS</h1>
-						<div className="grid grid-cols-5 place-content-center place-items-center gap-2">
-							<img src="/img/skills/html.png" alt="" />
-							<img src="/img/skills/css.png" alt="" />
-							<img src="/img/skills/js.png" alt="" />
-							<img src="/img/skills/next.png" alt="" />
-							<img src="/img/skills/mongodb.png" alt="" />
-							<img src="/img/skills/rust.png" alt="" />
-							<img src="/img/skills/github.png" alt="" />
-							<img src="/img/skills/git.png" alt="" />
-							<img src="/img/skills/vsc.png" alt="" />
-							<img src="/img/skills/tiptap.png" alt="" />
-							<img src="/img/skills/cloudinary.png" alt="" />
-						</div>
+						<Skills/>
 					</div>
 					<div>
 						<h1>EXPERIENCE</h1>
@@ -102,7 +91,7 @@ export default function About() {
 								Vocational High School (Business Management)
 							</h4>
 							<p>SMKS 45 Lembang</p>
-							<p>Graduated: 2022</p>
+							<p>2019 - 2022</p>
 						</div>
 					</div>
 				</div>
