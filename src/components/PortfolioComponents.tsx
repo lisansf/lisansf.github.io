@@ -26,9 +26,9 @@ export const PortfolioNavigation = () => {
 				</h1>
 				<div className="flex gap-2">
 					<ul className="flex gap-2">
-						{navLink("/portfolio", "Home")}
-						{navLink("/portfolio/about", "About")}
-						{navLink("/portfolio/projects", "Projects")}
+						{navLink("/", "Home")}
+						{navLink("/about", "About")}
+						{navLink("/projects", "Projects")}
 					</ul>
 				</div>
 			</nav>
