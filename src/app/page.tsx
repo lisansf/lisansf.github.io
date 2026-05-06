@@ -8,8 +8,6 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Portfolio | Lisan Shidqi Farizan",
-	description: "Portfolio web VEOveneht!",
 	keywords:
 		"veoveneht, VEOveneht, Veo Veneht, veo veneht, website, games, teknologi,lisan shidqi farizan, Lisan Shidqi Farizan, LISAN SHIDQI FARIZAN, LISAN, lisan, Lisan",
 	authors: [

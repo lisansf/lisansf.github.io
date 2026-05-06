@@ -4,11 +4,24 @@ import { M_PLUS_Rounded_1c } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-	title: "Lisan Shidqi Farizan",
-
+	title: "Lisan Shidqi Farizan - Web Developer",
+	description: "Portfolio Lisan Shidqi Farizan, mahasiswa Informatika dan Fullstack Developer yang fokus pada pengembangan web modern menggunakan Next.js, React, TypeScript, dan MongoDB. Berpengalaman membangun aplikasi full-stack serta tertarik pada pengembangan backend, dan analisis sistem.",
 	icons: {
 		icon: "/img/favicon.png",
 	},
+	keywords: [
+		"Lisan Shidqi Farizan",
+		"Frontend Developer",
+		"Fullstack Developer",
+		"Next.js",
+		"React",
+		"TypeScript",
+		"MongoDB",
+		"Web Developer Indonesia"
+	]
+	authors: [
+		{ name: "Lisan Shidqi Farizan", url: "https://veoveneht.eu.org/" },
+	],
 };
 
 const mplus = M_PLUS_Rounded_1c({
