@@ -7,7 +7,8 @@ import {
 import Skills from "@/components/SkillComponents";
 
 export const metadata: Metadata = {
-	title: "About | Lisan Shidqi Farizan",
+	title: "Lisan Shidqi Farizan - Web Developer",
+	description: "Portfolio Lisan Shidqi Farizan, mahasiswa Informatika dan Fullstack Developer yang fokus pada pengembangan web modern menggunakan Next.js, React, TypeScript, dan MongoDB. Berpengalaman membangun aplikasi full-stack serta tertarik pada pengembangan backend, dan analisis sistem.",
 };
 
 export default function About() {
