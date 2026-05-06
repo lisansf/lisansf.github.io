@@ -21,7 +21,7 @@ export default function About() {
 							<img className="rounded-full" src="/img/lisan.png" alt="me"/>
 						</div>
 						<div>
-							<h1>BIOGRAPHY</h1>
+							<h1>LISAN SHIDQI FARIZAN</h1>
 							<p>
 								I'm a web developer focused on building modern, performant web
 								applications using Next.js and React. I have experience in

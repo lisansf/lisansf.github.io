@@ -38,7 +38,7 @@ export default function Home() {
 							Realize Everything You Think With Logic And Syntax.
 						</p>
 						<p className="text-[1.2rem]">
-							As a full-stack developer, I am dedicated to turning ideas into
+							As a web developer, I am dedicated to turning ideas into
 							innovative web applications. Explore my latest projects,
 							showcasing my work in NextJS and web development.
 						</p>
